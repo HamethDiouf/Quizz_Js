@@ -76,7 +76,7 @@ function afficherResultats(tabCheck) {
             aideResultat.innerText = 'Retentez une autre réponse dans les cases rouges, puis re-validez !';
             noteResultat.innerText = '0/5';
             default:
-            titreResultat.innerText = "😢 Désolé, il y a des erreurs.";
+            titreResultat.innerText = "😢 Oups ! Cas innatendu. Réfléchissez bien et réessayez.";
     }
 }
 
