@@ -47,7 +47,7 @@ function afficherResultats(tabCheck) {
     switch(nbFautes) {
 
         case 0:
-            titreResultat.innerText = "✔️ Bravo, c'est un sans faute ! ✔️";
+            titreResultat.innerText = "✔️ Bravo ! Vous avez répondu à toutes les questions. Continuez comme ça ! ✔️";
             aideResultat.innerText = '';
             noteResultat.innerText = '5/5';
         break;
