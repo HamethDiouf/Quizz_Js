@@ -47,7 +47,7 @@ function afficherResultats(tabCheck) {
     switch(nbFautes) {
 
         case 0:
-            titreResultat.innerText = "✔️ Bravo ! Vous avez répondu à toutes les questions. Continuez comme ça ! ✔️";
+            titreResultat.innerText = "✔️ Bravo ! Vous avez complété toutes les questions avec brio ✔️";
             aideResultat.innerText = '';
             noteResultat.innerText = '5/5';
         break;
