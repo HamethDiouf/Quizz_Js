@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+        <h1>Quizz Culture générale !</h1> 
+
+        <div class="container-global">
+
+            <form class="form-quizz">
+                
+                <!-- Question 1 -->
+                <div class="question-block">
+                    <h4>Quel est le système politique du Sénégal ?</h4>
+
+                    <div>
+                        <input type="radio" name="q1" value="a" id="absolue" checked>
+                        <label for="absolue">Monarchie absolue</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q1" value="b" id="parlementaire" checked>
+                        <label for="parlementaire">République parlementaire</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q1" value="c" id="presidentielle" checked>
+                        <label for="presidentielle">République présidentielle</label>
+                    </div>
+                </div>
+                
+                <!-- Question 2 -->
+                <div class="question-block">
+                    <h4>En quelle année le Sénégal a-t-il obtenu son indépendance de la France ?</h4>
+
+                    <div>
+                        <input type="radio" name="q2" value="a" id="date1" checked>
+                        <label for="date1">1960</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q2" value="b" id="date2" checked>
+                        <label for="date2">1958</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q2" value="c" id="date3" checked>
+                        <label for="date3">1965</label>
+                    </div>
+                </div>
+                
+                <!-- Question 3 -->
+                <div class="question-block">
+                    <h4>Quel est le mandat présidentiel au Sénégal en termes de durée ?</h4>
+
+                    <div>
+                        <input type="radio" name="q3" value="a" id="date4" checked>
+                        <label for="date4"> ans4</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q3" value="b" id="date5" checked>
+                        <label for="date5">5 ans</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q3" value="c" id="date6" checked>
+                        <label for="date6">7 ans</label>
+                    </div>
+                </div>
+                
+                <!-- Question 4 -->
+                <div class="question-block">
+                    <h4>Quel est le principal organe législatif du Sénégal ?</h4>
+
+                    <div>
+                        <input type="radio" name="q4" value="a" id="nationale" checked>
+                        <label for="nationale">L'Assemblée nationale</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q4" value="b" id="constitutionnel" checked>
+                        <label for="constitutionnel">Le Conseil constitutionnel</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q4" value="c" id="cese" checked>
+                        <label for="cese">Le Conseil économique, social et environnemental</label>
+                    </div>
+                </div>
+                
+                <!-- Question 5 -->
+                <div class="question-block">
+                    <h4>Quelle institution est chargée de veiller à la conformité des lois avec la Constitution au Sénégal ?</h4>
+
+                    <div>
+                        <input type="radio" name="q5" value="a" id="m1" checked>
+                        <label for="m1">La Cour suprême</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q5" value="b" id="m2" checked>
+                        <label for="m2"> Le Sénat</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q5" value="c" id="m3" checked>
+                        <label for="m3"> Le Conseil constitutionnel</label>
+                    </div>
+                </div>
+
+                <button type="submit">Validez vos choix !</button>
+            </form>
+
+            <div class="resultats">
+                <h2>Cliquez sur valider pour voir les résultats.</h2>
+                <p class="aide"></p>
+                <p class="note"></p>
+            </div>
+
+        </div>
+    
+
+    <script src="/app.js"></script>
+</body>
+</html>
